@@ -1,0 +1,15 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+general_axia.pdf
+pyproject.toml
+uv.lock
+.vscode
+
+# Virtual environments
+.env
+.venv
