@@ -5,7 +5,6 @@ build/
 dist/
 wheels/
 *.egg-info
-general_axia.pdf
 pyproject.toml
 uv.lock
 .vscode

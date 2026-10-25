@@ -78,4 +78,10 @@ if __name__ == "__main__":
         title="Asistente digital AXIA",
         description="El asistente personal financiero de AXIA CAPITAL",
         chatbot=gr.Chatbot(show_label=False),
-    ).launch(css=CSS, js=JS, theme=gr.themes.Base())
+    ).launch(
+        css=CSS,
+        js=JS,
+        theme=gr.themes.Base(),
+        server_name="0.0.0.0",
+        server_port=int(os.getenv("PORT", 7860)),
+    )
