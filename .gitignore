@@ -9,6 +9,7 @@ general_axia.pdf
 pyproject.toml
 uv.lock
 .vscode
+main.py
 
 # Virtual environments
 .env
